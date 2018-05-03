@@ -22,7 +22,8 @@ The main script to start file preparation - `prep.sh`. Procedure utilises severa
 
 ## Added filtering steps
 Alignments can be optimised further, python scripts are provided: 
-  - realignment (muscle) and comparison with initial alignment
-  - pairwise_paml
-  - Gblocks (site filter)
-  - Zorro (site filter)
+  - realignment (e.g. muscle or prank) and comparison with initial alignment (Simply read in alignments and compare species by species)
+  - pairwise_paml (script in Pairwise_filter)
+  - Gblocks (script in Site_filter)
+  - Zorro (script in Site_filter)
+  - Apply filters (example script in join_filters, needs to be customised)
