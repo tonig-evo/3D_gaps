@@ -1,0 +1,26 @@
+
+    seqfile = codeml_in
+    treefile = stable.ph
+    outfile = codeml_pair
+    noisy = 0  * 0,1,2,3,9: how much rubbish on the screen
+    verbose = 0 * 0: concise; 1: detailed, 2: too much
+    runmode = -2
+    seqtype = 1
+    CodonFreq = 2 
+    clock = 0
+    model = 0
+    NSsites = 0
+    icode = 0
+    Mgene = 0
+    fix_kappa = 0
+    kappa = 2
+    fix_omega = 0
+    omega = 0.1
+    fix_alpha = 1
+    alpha = .0
+    Malpha = 0
+    ncatG = 10
+    getSE = 0
+    RateAncestor = 0
+    method = 0
+    Small_Diff = .5e-6
